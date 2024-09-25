@@ -15,7 +15,7 @@ spec:
         service: coworking
     spec:
       containers:
-        - image: 945741465569.dkr.ecr.us-west-2.amazonaws.com/coworking-service:latest
+        - image: 945741465569.dkr.ecr.us-west-2.amazonaws.com/coworking_space:latest
           name: coworking
           imagePullPolicy: Always
           ports:
